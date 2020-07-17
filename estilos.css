@@ -2,6 +2,43 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.logo_jb {    
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+}
+
+.nombre{
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+
+}
+.header{
+    color: #eee;
+    background-color: #393e46;
+}
+.header a{
+    color: #eee;
+    text-decoration: none;  
+}
+
+.hero{
+    height: 300px;
+    background-image: url('imagenes/desarrolloweb.png');
+    background-color: #393e46;
+    background-size: 950px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+h1{
+    line-height: 40px;
+    color: #eee;
+}
+
+.resaltador{
+    color: #96cc4b;
+}
+
 h1,
 h2,
 h3,
@@ -11,9 +48,7 @@ h6{
     font-family: 'Fjalla One', sans-serif;
 }
 
-h1{
-    line-height: 40px;
-}
+
 
 
 .logo_jb{
