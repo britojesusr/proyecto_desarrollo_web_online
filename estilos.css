@@ -1,5 +1,6 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
+ 
 }
 
 
@@ -79,27 +80,35 @@ h1, h2, h3, h4, h5, h6{
     max-height: 300px;
 }
 
-.logo_image{
-    width: 100px;
-    height: 100px;
-}
-
-.intereses{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-around;
-    border: 1px solid #222831;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-
-}
-
 .conocimientos{
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
+    border: 1px solid #FF0000;
 }
+
+.conocimientos_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #393e46;    
+    width: 140px;
+    height: 140px;
+}
+
+.logo_imageContainer{
+    width: 90px;
+    height: 90px;
+    padding: 0;
+    margin: 0;   
+}
+
+.logo_image{
+    margin: 0;
+    width: 90px;
+    height: 90px;          
+}
+
 
 
 .footer{
