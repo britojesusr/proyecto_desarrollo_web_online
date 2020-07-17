@@ -2,60 +2,76 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.logo_jb {    
-    font-family: 'Monoton', cursive;
-    font-size: 50px;
-}
 
-.nombre{
-    font-family: 'Monoton', cursive;
-    font-size: 25px;
-
-}
 .header{
     color: #eee;
     background-color: #393e46;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 10px;
+}
+.menu {
+    height: inherit;
+}
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    height: inherit;
+}
+.header ul li{
+    display: flex;
+    height: inherit;
 }
 .header a{
     color: #eee;
-    text-decoration: none;  
+    text-decoration: none;
+    font-weight: bold; 
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
+.logo_jb {    
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    align-self: center;
+    width: auto;
+    max-height: 80px;    
+}
+.nombre{
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    align-self: center;
+    justify-self: center;
+}
+
 
 .hero{
-    height: 300px;
+    height: 250px;
     background-image: url('imagenes/desarrolloweb.png');
     background-color: #393e46;
-    background-size: 900px 300px;
+    background-size: 800px 250px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
-
 h1{
+    width: 500px;
     font-size: 30px;
     line-height: 1.5;
     color: #eee;
-    margin: 100px 520px 70px 30px;
+    margin: 0;
 }
-
 .resaltador{
     color: #96cc4b;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5, 
-h6{
+h1, h2, h3, h4, h5, h6{
     font-family: 'Fjalla One', sans-serif;
-}
-
-
-
-
-.logo_jb{
-    width: auto;
-    max-height: 80px;
 }
 
 .portada{
@@ -66,4 +82,40 @@ h6{
 .logo_image{
     width: 100px;
     height: 100px;
+}
+
+.intereses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    border: 1px solid #222831;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+
+}
+
+.conocimientos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.footer{
+    height: 60px;
+    background-color: #393e46;
+    color: #eee;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.footer a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;    
 }
