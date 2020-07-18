@@ -9,7 +9,7 @@ body{
     background-color: #393e46;
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 60px;
     padding: 0 10px;
 }
 .menu {
@@ -81,17 +81,24 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .conocimientos{
+    background-color: #393e46;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    border: 1px solid #FF0000;
+    border: 1px solid #393e46;
+    border-radius: 10px;
+    padding: 20px 10px;
 }
 
 .conocimientos_container{
+    background-color: #ffffff;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    border: 1px solid #393e46;    
+    border: 1px solid #393e46;
+    border-radius: 50%;
+    box-sizing: content-box;
+    padding: 15px;    
     width: 140px;
     height: 140px;
 }
@@ -105,8 +112,78 @@ h1, h2, h3, h4, h5, h6{
 
 .logo_image{
     margin: 0;
-    width: 90px;
-    height: 90px;          
+    width: inherit;
+    height: inherit;          
+}
+
+.conocimientos_container:hover .logo_imageContainer{
+    width: 140px;
+    height: 140px;     
+}
+.conocimientos_container:hover .etiqueta_logo{
+    display: none;  
+}
+
+
+.section_cursos{
+    background-color: #393e46;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #393e46;
+    border-radius: 10px;
+    padding: 20px 10px;
+
+
+
+}
+
+.article_cursos{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #393e46;
+    border-radius: 10px;
+    width: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container_cursosImage{
+    width: 550px;
+    height: 350px;
+    padding: 0;
+    margin: 0; 
+    
+}
+.cursosImage{
+    margin: 0;
+    width: inherit;
+    height: inherit; 
+}
+
+.contacto {
+    background-color: #00b3c5;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    padding: 0;
+    
+    
+
+}
+.article_selfiejb, .container_selfiejb{
+    width: inherit;
+    height: inherit;
+}
+
+.selfie_jb{
+    width: 140px;
+    height: 250px;
+    margin: 0;
 }
 
 
